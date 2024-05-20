@@ -1,0 +1,14 @@
+@use '../core/variables' as *;
+.header {
+	position: relative;
+	height: 600px;
+	background: #888;
+	background-size: cover;
+	.container {
+		height: 600px;
+		h1 {
+			color: $light-color;
+			text-align: center;
+		}
+	}
+}

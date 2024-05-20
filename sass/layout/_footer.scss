@@ -1,0 +1,13 @@
+.footer {
+    background-color: grey;
+    text-align: center;
+    &__large {
+        height: 400px;
+        padding-top: 4em;
+        background-color: #e1e1e1;
+    }
+    &__small {
+        padding: 2em 0;
+        font-size: 1.4rem;
+    }
+}
